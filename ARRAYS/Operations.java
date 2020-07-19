@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Java_Operations{
     static Scanner scan = new Scanner(System.in);
     
-    public void insert_at(int array[]){
+    public void insert_at(int array[]){       //insertion of an element in an array.
         
         int s = array.length;
         int index;
@@ -28,7 +28,7 @@ class Java_Operations{
         }
     }
 
-    public void insert_before(int array[]){
+    public void insert_before(int array[]){           //insertion of any element before any specific element in the array.
 
         int s = array.length;
         int t_element;
@@ -58,7 +58,7 @@ class Java_Operations{
     }
     }
 
-    public void insert_after(int array[]){
+    public void insert_after(int array[]){                  //insertion of any element after any specific element in the array.
         int s = array.length;
         int t_element;
         System.out.println("Enter the element after which you want to insert element: ");
@@ -86,7 +86,7 @@ class Java_Operations{
             System.out.println(array2[i]);
         }
     }
-    public void delete(int array[]){
+    public void delete(int array[]){       //Deletion of any element from an arry.
         int s = array.length;
         int array2[] = new int[s-1];
         int t_element;
@@ -110,7 +110,7 @@ class Java_Operations{
         }
     }
 
-    public void delete_from(int array[]){
+    public void delete_from(int array[]){           //Given the index of the element, delete the element of that index
         int s = array.length;
         int index;
         System.out.println("Enter the index:");
