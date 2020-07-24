@@ -89,7 +89,7 @@ public class Linear_Llist {
            n = n.next;
         }
     }
-    
+
     //inserting node at a given position
     public void insertAt(int n_val,int pos){
         Node ptr = head;
