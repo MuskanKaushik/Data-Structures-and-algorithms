@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 public class Linear_Llist {
     Node head;
     static class Node{

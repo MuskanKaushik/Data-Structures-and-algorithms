@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Linear_Llist",
+            "request": "launch",
+            "mainClass": "Linear_Llist",
+            "projectName": "Data-Structures-and-algorithms_94499094"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
