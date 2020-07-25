@@ -47,7 +47,7 @@ public class reverse {
         System.out.println();
         System.out.println("Printing the original list: ");
         in.printList(in.head);
-        //reversing the linked list
+        //reversing
         Node r = reverse_Linked_List(in.head);
 		System.out.println("\n\nAfter reversing");
 		in.printList(r);
