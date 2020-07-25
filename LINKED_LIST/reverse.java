@@ -49,7 +49,7 @@ public class reverse {
         in.printList(in.head);
         //reversing
         Node r = reverse_Linked_List(in.head);
-		System.out.println("\n\nAfter reversing");
+		System.out.println("\n\nAfter reversing: ");
 		in.printList(r);
 
     }
