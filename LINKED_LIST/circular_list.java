@@ -1,3 +1,4 @@
+//Check if the given list is circular or not
 public class circular_list{
     Node head;
     static class Node{
