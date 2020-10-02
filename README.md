@@ -7,8 +7,9 @@
 
 This repository contains the implementations of fundamental data structures & algorithms: arrays, linked lists, stacks, queues, and sorting in JAVA.
 
-The following use cases are included:
-**1. Array**
+The following use cases are included:    
+
+ **1. Array**
 * *frequency_sort.java*
 * *min_sum.java*
 * *Operations.java*
